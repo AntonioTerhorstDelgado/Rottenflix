@@ -1,0 +1,55 @@
+@import url(../style.css);
+
+body > section > article > img {
+  width: 150px;
+  margin: 0rem auto;
+  border-radius: 1.5rem;
+  display: block;
+}
+
+.container {
+  margin-bottom: 2rem;
+  width: 60%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.container h1 {
+  font-size: 2rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.container p {
+  text-align: justify;
+}
+
+body > section.container > article > input {
+    margin-top: 0.5rem;
+  color: black;
+  background-color: white;
+  display: block;
+}
+
+body > section.container > article > a {
+  color: white;
+  margin-top: 0.5rem;
+  display: block;
+  text-decoration: none;
+  align-items: center;
+  justify-items: center;
+  background-color: goldenrod;
+  width: 10.6rem;
+  pad: 0.5;
+}
+
+body > section > article.filmes {
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}

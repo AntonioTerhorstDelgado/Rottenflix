@@ -1,0 +1,41 @@
+@import url(../style.css);
+
+section.container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: goldenrod;
+  display: block;
+  margin-left: 10rem;
+}
+
+section.container > article {
+  align-items: center;
+  background-color: gray;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+section.container > article > p {
+  background-color: gray;
+  color: black;
+}
+
+section.container > article > p.info_films {
+  color: goldenrod;
+}
+
+body > article.page_inicial > a 
+{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+ padding: 0.5rem;
+  border-radius: 2rem;
+  width: 12rem;
+  color: black;
+  background-color: goldenrod;
+  margin-left: 10rem;
+}
