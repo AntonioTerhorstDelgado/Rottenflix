@@ -1,0 +1,36 @@
+@import url(../style.css);
+
+section.container > article{
+    display: block;
+    margin: 3rem 10rem;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
+}
+
+section.container > article.voltar{
+    height: auto;
+    width: 18rem;
+}
+
+section.container > article.voltar > a{
+text-decoration: none;
+color: goldenrod;
+font-size: 1.5rem;
+margin-left: 0.5rem;
+}
+
+section.container > article > h1{
+    font-size: 3rem;
+    text-align: center;
+    color: goldenrod;
+    margin-bottom: 2rem;
+}
+
+section.container > article > p{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
