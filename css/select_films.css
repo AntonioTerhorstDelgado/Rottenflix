@@ -1,50 +1,49 @@
 @import url(../style.css);
 
 section.container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
-  color: goldenrod;
-  display: block;
-  margin-left: 10rem;
+    color: goldenrod;
+    display: block;
+    margin-left: 10rem;
 }
 
 section.container > article {
-  align-items: center;
-  background-color: gray;
-  margin: 1rem;
-  border-radius: 1rem;
-}
-
-section.container > article img{
+    align-items: center;
+    background-color: gray;
+    margin: 1rem;
     border-radius: 1rem;
 }
 
-section.container > article img.walle{
+section.container > article img {
+    border-radius: 1rem;
+}
+
+section.container > article img.walle {
     width: 14rem;
     height: 15rem;
 }
 
 section.container > article > p {
     text-align: center;
-  color: black;
+    color: black;
 }
 
 section.container > article > p.info_films {
-  color: goldenrod;
+    color: goldenrod;
 }
 
-body > article.page_inicial > a 
-{
-  text-decoration: none;
-  text-align: center;
-  display: block;
- padding: 0.5rem;
-  border-radius: 2rem;
-  width: 12rem;
-  color: black;
-  background-color: goldenrod;
-  margin-left: 10rem;
+body > article.page_inicial > a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    width: 12rem;
+    color: black;
+    background-color: goldenrod;
+    margin-left: 10rem;
 }

@@ -1,69 +1,67 @@
 @import url(../style.css);
 
-body > article:nth-child(1){
+body > article:nth-child(1) {
     color: white;
     font-size: 2rem;
     margin-left: 11rem;
 }
 
-body > section > article > div{
+body > section > article > div {
     font-size: 0.9rem;
     width: 40vw;
     border-bottom: 2px solid #fff;
 }
 
-body > section > article:nth-last-child(1){
+body > section > article:nth-last-child(1) {
     width: 20rem;
 }
 
-body > section > article > img{
+body > section > article > img {
     width: 200px;
     margin: 0rem 3rem;
     border-radius: 1.5rem;
     display: block;
 }
 
-
-body > section:nth-child(1){
-  margin: 0rem;
-  padding: 0rem;
-  display: flex;
+body > section:nth-child(1) {
+    margin: 0rem;
+    padding: 0rem;
+    display: flex;
 }
 
 body > section > article.logins > a {
-  text-decoration: none;
-  margin-bottom: 1rem;
-  text-align: center;
-  display: block;
-  padding: 0.6rem;
-  border-radius: 2rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: block;
+    padding: 0.6rem;
+    border-radius: 2rem;
 }
 
 body > section > article.logins > a.logar {
-  color: white;
-
+    color: white;
 }
 
 body > section > article.logins > a.logarfacebook {
-  background-color: goldenrod;
-  color: white;
+    background-color: goldenrod;
+    color: white;
 }
 
 body > section > article.logins > a.logaremail {
-  color: black;
-  background-color: goldenrod;
+    color: black;
+    background-color: goldenrod;
 }
 
 body > section > article.logins > a.sabermais {
-  color: black;
-  background-color: white;
+    color: black;
+    background-color: white;
 }
 
 body > section > article.logins {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
-.container{
+.container {
     margin-top: 50px;
     height: 100vh;
     display: flex;
@@ -71,13 +69,13 @@ body > section > article.logins {
     color: white;
 }
 
-.container h1{
+.container h1 {
     display: block;
     margin: 0 2rem;
-margin-bottom: 2rem;
-justify-content: center;
+    margin-bottom: 2rem;
+    justify-content: center;
 }
 
-.container p{
-    text-align:justify;
+.container p {
+    text-align: justify;
 }
