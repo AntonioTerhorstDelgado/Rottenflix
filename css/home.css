@@ -16,10 +16,6 @@ body > section > article:nth-last-child(1) {
     width: 20rem;
 }
 
-
-
-
-
 body > section > article > img {
     width: 200px;
     margin: 0rem 3rem;
