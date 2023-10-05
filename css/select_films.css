@@ -18,6 +18,10 @@ section.container > article {
   border-radius: 1rem;
 }
 
+section.container > article img{
+    border-radius: 1rem;
+}
+
 section.container > article img.walle{
     width: 14rem;
     height: 15rem;
