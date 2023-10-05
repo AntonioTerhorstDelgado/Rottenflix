@@ -12,9 +12,6 @@ body > section > article > div {
     border-bottom: 2px solid #fff;
 }
 
-
-
-
 body > section > article:nth-last-child(1) {
     width: 20rem;
 }
