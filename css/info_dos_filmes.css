@@ -1,0 +1,56 @@
+@import url(../style.css);
+
+section.container {
+    display: grid;
+    justify-content: center;
+}
+
+article.titulo {
+    margin: 2rem;
+    width: 25rem;
+    height: auto;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    margin: 2rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 1rem;
+    background-color: gray;
+    font-size: 2rem;
+}
+
+section.container > article.sinopse{
+    margin-bottom: 0rem;
+}
+
+section.container > article.sinopse > h1 {
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+    background-color: gray;
+    display: block;
+    width: 9rem;
+}
+
+section.container > article.sinopse > p {
+    color: gold;
+    font-size: 1rem;
+}
+
+section.container > article {
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 50rem;
+    height: auto;
+    background-color: gray;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+section.container > article > p {
+    margin-left: 0.5rem;
+}

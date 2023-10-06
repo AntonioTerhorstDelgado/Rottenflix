@@ -20,10 +20,7 @@ section.container > article {
 
 section.container > article img {
     border-radius: 1rem;
-}
-
-section.container > article img.walle {
-    width: 14rem;
+    width: 13rem;
     height: 15rem;
 }
 
@@ -32,8 +29,22 @@ section.container > article > p {
     color: black;
 }
 
+section.container > article > p.aranhaverso {
+font-size: 0.9rem;
+}
+
+
 section.container > article > p.info_films {
+    padding-top: 1rem;
     color: goldenrod;
+}
+
+section.container > article > a.info_films{
+    margin-top: 1rem;
+text-decoration: none;
+display: flex;
+justify-content: center;
+color: goldenrod;
 }
 
 body > article.page_inicial > a {
