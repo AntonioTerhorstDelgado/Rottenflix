@@ -6,6 +6,7 @@ section.container {
 }
 
 article.titulo {
+    color:gold;
     margin: 2rem;
     width: 25rem;
     height: auto;
