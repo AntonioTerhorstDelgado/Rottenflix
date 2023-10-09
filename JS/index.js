@@ -1,16 +1,16 @@
-var zoom = 1;
+var zoomLevel = 1;
 
-function zoomIn() {
-    zoom += 0.1;
-    document.body.style.zoom = zoom;
-}
+document.getElementById('zoom-in-btn').addEventListener('click', function() {
+  zoomLevel += 0.1;
+  document.body.style.zoom = zoomLevel;
+});
 
-function zoomOut() {
-    zoom -= 0.1;
-    document.body.style.zoom = zoom;
-}
+document.getElementById('zoom-out-btn').addEventListener('click', function() {
+  zoomLevel -= 0.1;
+  document.body.style.zoom = zoomLevel;
+});
 
-function resetZoom() {
-    zoom = 1;
-    document.body.style.zoom = zoom;
-}
+document.getElementById('reset-btn').addEventListener('click', function() {
+  zoomLevel = 1;
+  document.body.style.zoom = zoomLevel;
+});
