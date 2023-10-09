@@ -6,7 +6,7 @@ section.container {
 }
 
 article.titulo {
-    color:gold;
+    color: gold;
     margin: 2rem;
     width: 25rem;
     height: auto;
@@ -25,7 +25,7 @@ a {
     font-size: 2rem;
 }
 
-section.container > article.sinopse{
+section.container > article.sinopse {
     margin-bottom: 0rem;
 }
 

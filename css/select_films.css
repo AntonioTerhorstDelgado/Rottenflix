@@ -30,21 +30,20 @@ section.container > article > p {
 }
 
 section.container > article > p.aranhaverso {
-font-size: 0.9rem;
+    font-size: 0.9rem;
 }
-
 
 section.container > article > p.info_films {
     padding-top: 1rem;
     color: goldenrod;
 }
 
-section.container > article > a.info_films{
+section.container > article > a.info_films {
     margin-top: 1rem;
-text-decoration: none;
-display: flex;
-justify-content: center;
-color: goldenrod;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: goldenrod;
 }
 
 body > article.page_inicial > a {

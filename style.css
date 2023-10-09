@@ -12,7 +12,7 @@ body {
 header.button {
     margin: 0;
     padding: 0;
-justify-content: center;
+    justify-content: center;
     display: flex;
     margin-bottom: 1rem;
 }
