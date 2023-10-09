@@ -30,21 +30,26 @@ body > section > article > img {
 
 body > section.container > article > input {
     margin-top: 0.5rem;
-    color: black;
-    background-color: white;
+    color: goldenrod;
+    place-content: gold;
+    background-color: black;
     display: block;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-color: gold;
 }
 
 body > section.container > article > a {
-    color: white;
+    color: gold;
     margin-top: 0.5rem;
-    display: block;
+    display: flex;
     text-decoration: none;
-    align-items: center;
-    justify-items: center;
-    background-color: goldenrod;
-    width: 10.6rem;
-    pad: 0.5;
+    background-color: black;
+    border-radius: 1rem;
+    border-color: gold;
+    padding: 0.5rem;
+    border-style: inset;
+    width: 10.5rem;
 }
 
 body > section > article.filmes {
@@ -53,3 +58,4 @@ body > section > article.filmes {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
 }
+

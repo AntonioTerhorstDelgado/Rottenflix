@@ -9,6 +9,13 @@
 </head>
 
 <body>
+  <header class="button">
+    <h1>Controle de Zoom</h1>
+
+    <button onclick="zoomIn()">Aumentar Zoom</button>
+    <button onclick="resetZoom()">Resetar Zoom</button>
+    <button onclick="zoomOut()">Reduzir Zoom</button>
+  </header>
   <section class="container">
     <article>
       <img src="../images/Rottenflix.logo.JPG" alt="Rottenflix logo" />
@@ -18,8 +25,8 @@
         <p>todos os filmes, os mais antigos até os novos</p>
         <p>lançamentos. É so clicar em entrar e se divertir</p>
       </div>
-      <input type="text">
-      <input type="password">
+      <input placeholder="Digite seu E-mail" type="email">
+      <input placeholder="Digite sua senha" type type="password">
       <a href="../pages/select_films.html">Login</a>
     </article>
     <article class="filmes">
@@ -29,6 +36,7 @@
       <img src="../images/Wall.E.jpg" alt="Capa do filme">
     </article>
   </section>
+  <script src="../Js/index.js"></script>
 </body>
 
 </html>
